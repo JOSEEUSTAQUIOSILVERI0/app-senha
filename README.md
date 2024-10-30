@@ -19,5 +19,5 @@ This is a simple Tic-Tac-Toe game for Android, developed in Kotlin. The app allo
 
 1. Clone this repository to your local machine:
 
-   ```bash
-   git clone https://github.com/your-username/tic-tac-toe-android.git
+ 
+   git clone https://github.com/your-username/tic-tac-toe-android.git](https://github.com/JOSEEUSTAQUIOSILVERI0/app-senha.git)
