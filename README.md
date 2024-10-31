@@ -1,23 +1,43 @@
-# Tic-Tac-Toe Android Game
 
-This is a simple Tic-Tac-Toe game for Android, developed in Kotlin. The app allows two players to take turns playing on the same device. The interface is simple and user-friendly, making it an enjoyable game for all ages.
 
-## Features
+Password Generator App
+This Android application generates secure passwords based on user-defined criteria. Users can customize the length and complexity of the generated password by selecting various options such as including uppercase letters, lowercase letters, numbers, and special characters.
 
-- **Two-Player Mode**: The game is played by two players on the same device.
-- **Game Status Display**: Shows which player's turn it is.
-- **Win Detection**: Automatically detects when a player has won or if there is a draw.
-- **Reset Button**: Allows players to start a new game at any time.
+Features
+Customizable Password Length: Use a SeekBar to select the desired password length (1-20 characters).
+Character Options: Choose to include:
+Uppercase letters
+Lowercase letters
+Numbers
+Special characters
+Option to exclude similar characters (e.g., 'O', '0', 'I', '1')
+Copy to Clipboard: Easily copy the generated password to the clipboard for use in other applications.
+Screenshots
+(You can add screenshots of your app here)
 
-## Requirements
+Requirements
+Android Studio
+Minimum SDK version: 21 (Lollipop)
+Installation
+Clone the repository:
 
-- Android Studio Arctic Fox (or higher)
-- Kotlin version 1.5 or higher
-- Android SDK 21 (Lollipop) or higher
+https://github.com/JOSEEUSTAQUIOSILVERI0/app-senha.git
 
-## Installation
+![image](https://github.com/user-attachments/assets/b7ea3584-4443-42af-8fba-76c8620ac8d6)
 
-1. Clone this repository to your local machine:
+Open the project in Android Studio.
 
- 
-   git clone https://github.com/your-username/tic-tac-toe-android.git](https://github.com/JOSEEUSTAQUIOSILVERI0/app-senha.git)
+Build and run the application on an Android device or emulator.
+
+Usage
+Adjust the password length using the SeekBar.
+Select the desired character options by checking the corresponding checkboxes.
+Tap the "Gerar Senha" button to generate a password.
+Tap the "Copia Senha" button to copy the generated password to your clipboard.
+Code Overview
+MainActivity.kt
+The main activity contains the UI logic for generating passwords.
+Uses Random to generate characters from user-selected sets.
+Layout XML
+Uses a LinearLayout to arrange the UI components vertically.
+Includes TextView, SeekBar, CheckBox, and Button elements for user interaction.
